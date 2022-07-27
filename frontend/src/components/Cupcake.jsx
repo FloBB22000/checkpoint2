@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-export default function Cupcake({ cupcake }) {
+function Cupcake({ cupcake }) {
   return (
     <div className="cupcake-container">
       <div className="cupcake">
@@ -62,3 +62,5 @@ Cupcake.defaultProps = {
     name: "",
   },
 };
+
+export default Cupcake;
